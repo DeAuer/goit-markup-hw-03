@@ -25,8 +25,6 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #2e2f42;
   background-color: #fff;
-  max-width: 1440px;
-  margin: 0 auto;
 }
 
 .sr-only {
@@ -46,4 +44,5 @@ body {
   width: 1158px;
   max-width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
 }

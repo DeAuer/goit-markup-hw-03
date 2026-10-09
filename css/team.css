@@ -8,9 +8,7 @@
 
 .team ul {
   display: flex;
-  width: calc((100%-72px) / 4);
   gap: 24px;
-  border-radius: 0 0 4px 4px;
 }
 
 .name-card {
@@ -18,6 +16,10 @@
   flex-direction: column;
   gap: 8px;
   padding: 32px 16px;
+}
+
+.team-card img {
+  display: block;
 }
 
 .team h2 {
@@ -30,6 +32,8 @@
 
 .team li {
   background-color: #fff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px
 }
 
 .team h3 {
