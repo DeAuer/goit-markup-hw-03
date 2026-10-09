@@ -1,0 +1,32 @@
+.team {
+  background-color: #f4f4fd;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.team li {
+  background-color: #fff;
+}
+
+.team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  line-height: 1.11111;
+}
+
+.team h3 {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.team p {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.5;
+  color: #434455;
+}
