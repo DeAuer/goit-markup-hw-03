@@ -1,6 +1,37 @@
 .portfolio {
   font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  padding: 120px 0;
+}
+
+.portfolio-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc((100%-72px) / 4);
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 72px;
+}
+
+.port-desc {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  gap: 8px;
+  padding: 32px 16px;
 }
 
 .portfolio h2 {
